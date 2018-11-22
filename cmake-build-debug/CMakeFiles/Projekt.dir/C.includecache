@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/main.c
+stdio.h
+-
+unistd.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+fcntl.h
+-
+signal.h
+-
+stdlib.h
+-
+sys/mman.h
+-
+
