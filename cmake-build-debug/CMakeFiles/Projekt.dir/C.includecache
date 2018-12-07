@@ -23,4 +23,6 @@ stdlib.h
 -
 sys/mman.h
 -
+sys/wait.h
+-
 
