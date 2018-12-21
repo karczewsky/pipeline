@@ -25,4 +25,6 @@ sys/mman.h
 -
 sys/wait.h
 -
+pthread.h
+-
 

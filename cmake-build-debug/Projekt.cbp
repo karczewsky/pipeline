@@ -27,16 +27,6 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="Projekt">
 				<Option output="/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Projekt" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug"/>
@@ -68,6 +58,16 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 Projekt/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
