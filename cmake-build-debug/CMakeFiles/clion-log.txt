@@ -1,11 +1,9 @@
-/home/jakub/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.5107.21/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline
--- The C compiler identification is GNU 8.2.1
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
+/home/jakub/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug

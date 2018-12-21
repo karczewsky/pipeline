@@ -1,3 +1,3 @@
 /home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/CMakeFiles/Projekt.dir
+/home/jakub/WAT/Systemy_operacyjne_lab/ClionProjects/pipeline/cmake-build-debug/CMakeFiles/edit_cache.dir
